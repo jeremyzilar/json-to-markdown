@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/sean-herron
 
 display_name: Sean Herron

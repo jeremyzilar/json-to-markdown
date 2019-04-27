@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/amando-e-gavino-jr
 
 display_name: Amando E. Gavino, Jr.

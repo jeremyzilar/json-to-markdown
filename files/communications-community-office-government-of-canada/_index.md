@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/communications-community-office-government-of-canada
 
 display_name: Communications Community Office, Government of Canada

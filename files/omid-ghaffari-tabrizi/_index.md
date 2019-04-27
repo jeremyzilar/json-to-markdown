@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/omid-ghaffari-tabrizi
 
 display_name: Omid Ghaffari-Tabrizi

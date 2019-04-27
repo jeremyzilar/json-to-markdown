@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/simchah-suveyke-bogin
 
 display_name: Simchah Suveyke-Bogin

@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/department-of-homeland-security
 
 display_name: U.S. Department of Homeland Security

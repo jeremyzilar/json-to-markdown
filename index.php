@@ -1,17 +1,13 @@
-
 <?php
 
   $authors = file_get_contents("authors.json");
   $authors = json_decode( $authors, true );
 
   foreach ($authors['items'] as $e => $author) {
-    echo "\n\n";
     foreach ($author as $key => $author_data) {
       echo file_contents($e, $author_data);
       create_file($author_data['uid'], file_contents($e, $author_data));
     }
-    echo "\n\n";
-
   }
 
   function file_contents($e, $author){
@@ -31,11 +27,9 @@
     $linkedin = $author['linkedin'];
     $youtube = $author['youtube'];
     $profile_source = $author['profile_source'];
+    $contents = <<<EOF---
 
-    $contents = <<<EOF
----
-
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/$uid
 
 display_name: $display_name
@@ -90,9 +84,10 @@ url: "$url"
 # see https://workflow.digital.gov/authors
 
 ---
+
 EOF;
-    return $contents;
-  }
+return $contents;
+}
 
 function create_file($uid, $data){
   mkdir('files/' . $uid, 0777, true);

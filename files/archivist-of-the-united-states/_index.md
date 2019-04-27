@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/archivist-of-the-united-states
 
 display_name: Archivist of the United States

@@ -1,7 +1,6 @@
-
 ---
 
-# Your author page lives at:
+# Your author profile page lives at:
 # https://demo.digital.gov/authors/structured-and-open-content-models-working-group
 
 display_name: Structured and Open Content Models Working Group
