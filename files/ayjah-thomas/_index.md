@@ -1,30 +1,33 @@
+
 ---
 
 # Your author profile page lives at:
 # https://demo.digital.gov/authors/ayjah-thomas
 
-display_name: Ayjah Thomas
-first_name: Ayjah
-last_name: Thomas
+display_name: "Ayjah Thomas"
+first_name: "Ayjah"
+last_name: "Thomas"
 
 # Pronoun preference — we strive to be inclusive, and don’t want to make assumptions on a person’s first name (be it a gender-neutral name, or is one more common in languages other than English). Learn more http://www.MyPronouns.org
 # List your pronoun(s) if you want them displayed alongside your name. Leave it blank and we'll use just your name.
 # See https://uwm.edu/lgbtrc/support/gender-pronouns/ for a list of pronouns
 # Examples: they/them, she/her, or he/him
-pronoun:
+pronoun: ""
 
 # User ID (not easily changed)
 uid: ayjah-thomas
 
 # if you include an email address, it will be displayed on your profile page
-email: 
+email: ""
 
 # Bio — keep it under 50 words
-bio: As a Public Communications Specialist with the Federal Reserve Board’s U.S. Currency Education Program, Ayjah manages the program’s social media portfolio, orchestrates targeted email outputs, develops and edits content placed on uscurrency.gov, and is instrumental in the program’s response to public inquiries.
+bio: "As a Public Communications Specialist with the Federal Reserve Board’s U.S. Currency Education Program, Ayjah manages the program’s social media portfolio, orchestrates targeted email outputs, develops and edits content placed on uscurrency.gov, and is instrumental in the program’s response to public inquiries."
+
+# Where can people learn more about your agency or program? Provide a full URL [e.g. 'https://www.example.gov/']
+bio_url: ""
 
 # Agency Full Name [e.g. U.S. General Services Administration]
 agency_full_name: ""
-
 
 # Agency Acronym [e.g., GSA]
 agency: ""
@@ -36,10 +39,9 @@ location: "Washington, D.C."
 # See [URL] Having a GitHub account will allow you to edit pages on DigitalGov. The image used in your GitHub account can also be used to populate your digital.gov profile photo.
 github: ""
 
-# flag — URL
-# cat  — URL
-# github-photo — requires a github ID
+# Profile Photo
 # See [URL] for a full list of profile photo options
+# github-photo — requires a github ID
 profile_source: ""
 
 # Professional Social Media [e.g., Digital_Gov]
@@ -47,9 +49,6 @@ Twitter: ""
 Facebook: ""
 LinkedIn: "ayjahthomas"
 YouTube: ""
-
-# Where can people learn more about your agency or program? Provide a full URL [e.g. 'https://www.example.gov/']
-url: ""
 
 # For more information on managing your author page,
 # see https://workflow.digital.gov/authors

@@ -1,30 +1,33 @@
+
 ---
 
 # Your author profile page lives at:
 # https://demo.digital.gov/authors/marina-fox
 
-display_name: Marina Fox
-first_name: Marina
-last_name: Fox
+display_name: "Marina Fox"
+first_name: "Marina"
+last_name: "Fox"
 
 # Pronoun preference — we strive to be inclusive, and don’t want to make assumptions on a person’s first name (be it a gender-neutral name, or is one more common in languages other than English). Learn more http://www.MyPronouns.org
 # List your pronoun(s) if you want them displayed alongside your name. Leave it blank and we'll use just your name.
 # See https://uwm.edu/lgbtrc/support/gender-pronouns/ for a list of pronouns
 # Examples: they/them, she/her, or he/him
-pronoun:
+pronoun: ""
 
 # User ID (not easily changed)
 uid: marina-fox
 
 # if you include an email address, it will be displayed on your profile page
-email: marina.fox@gsa.gov
+email: "marina.fox@gsa.gov"
 
 # Bio — keep it under 50 words
-bio: Marina Fox leads GSA&#39;s [DotGov Domain Services](https://home.dotgov.gov/) in the Office of Government-wide Policy (OGP). She has 20&#43; years of experience in data analysis, business intelligence and enterprise reporting, web performance analysis, advanced analytics, artificial intelligence (AI) and Big Data. Previously, Marina led a government-wide [Digital Analytics Program](https://digital.gov/dap/) (DAP) at GSA. Prior to becoming a public servant, Marina held various analytical and leadership roles at Deloitte, AOL, Booz Allen Hamilton, and Dow Jones. Her LinkedIn account is below.
+bio: "Marina Fox leads GSA&#39;s [DotGov Domain Services](https://home.dotgov.gov/) in the Office of Government-wide Policy (OGP). She has 20&#43; years of experience in data analysis, business intelligence and enterprise reporting, web performance analysis, advanced analytics, artificial intelligence (AI) and Big Data. Previously, Marina led a government-wide [Digital Analytics Program](https://digital.gov/dap/) (DAP) at GSA. Prior to becoming a public servant, Marina held various analytical and leadership roles at Deloitte, AOL, Booz Allen Hamilton, and Dow Jones. Her LinkedIn account is below."
+
+# Where can people learn more about your agency or program? Provide a full URL [e.g. 'https://www.example.gov/']
+bio_url: "https://home.dotgov.gov/"
 
 # Agency Full Name [e.g. U.S. General Services Administration]
 agency_full_name: "General Services Administration"
-
 
 # Agency Acronym [e.g., GSA]
 agency: "GSA"
@@ -36,10 +39,9 @@ location: "Washington, DC"
 # See [URL] Having a GitHub account will allow you to edit pages on DigitalGov. The image used in your GitHub account can also be used to populate your digital.gov profile photo.
 github: ""
 
-# flag — URL
-# cat  — URL
-# github-photo — requires a github ID
+# Profile Photo
 # See [URL] for a full list of profile photo options
+# github-photo — requires a github ID
 profile_source: ""
 
 # Professional Social Media [e.g., Digital_Gov]
@@ -47,9 +49,6 @@ Twitter: ""
 Facebook: ""
 LinkedIn: "marinavtuttle"
 YouTube: ""
-
-# Where can people learn more about your agency or program? Provide a full URL [e.g. 'https://www.example.gov/']
-url: "https://home.dotgov.gov/"
 
 # For more information on managing your author page,
 # see https://workflow.digital.gov/authors
