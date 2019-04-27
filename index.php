@@ -1,20 +1,20 @@
 
 <?php
 
-  $authors = file_get_contents("https://demo.digital.gov/authors/v1/json/");
-  print_r($authors);
-  // $tags = json_decode( $tags, true );
-  // print_r($tags);
-  foreach ($tags as $e => $tag) {
-    echo "<br/>";
-    // echo file_contents($e, $tag);
-    echo "<br/>";
-    // create_file($e, file_contents($e, $tag));
+  $authors = file_get_contents("authors.json");
+  $authors = json_decode( $authors, true );
+  // print_r($authors);
+
+  foreach ($authors['items'] as $e => $author) {
+    echo "\n\n";
+    echo file_contents($e, $author);
+    echo "\n\n";
+  //   // create_file($e, file_contents($e, $tag));
   }
 
-  function file_contents($e, $tag){
-    $t = $tag['display_name'];
-    $s = $tag['summary'];
+  function file_contents($e, $author){
+    $t = $author['display_name'];
+    $s = $author['summary'];
     $contents = <<<EOF
 ---
 # This topic lives at
